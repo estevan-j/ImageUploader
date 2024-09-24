@@ -1,6 +1,8 @@
 # ImageUploader
 
 ImageUploader es una aplicación web que permite a los usuarios subir, compartir y descargar imágenes de manera sencilla. Utiliza React y Vite para ofrecer una experiencia de usuario rápida y eficiente.
+![image](https://github.com/user-attachments/assets/94f8ac4b-09ed-4b97-a4e4-9ec26672288e)
+![image](https://github.com/user-attachments/assets/e406b854-f642-4b00-8c63-fcd6426bd5ba)
 
 ## Tecnologías
 
