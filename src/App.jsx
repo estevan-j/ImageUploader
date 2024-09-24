@@ -4,7 +4,7 @@ import Container from "./components/Container/Container";
 import Header from "./components/Header/Header";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={`App ${darkMode ? "darkMode" : ""}`}>
