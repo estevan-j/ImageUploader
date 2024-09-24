@@ -1,0 +1,40 @@
+.container-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  top: 45%;
+  margin: 0 auto;
+}
+.loading-bar {
+  width: 80%; /* Ajusta el ancho según sea necesario */
+  height: 10px; /* Ajusta la altura según sea necesario */
+  background-color: #4d5562; /* Color de fondo de la barra de carga */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; /* Ajusta el radio de borde según sea necesario */
+}
+
+/* Estilos para el elemento que se desplazará */
+.loading-bar-fill {
+  width: 55px; /* Ancho del elemento que se desplazará */
+  height: 100%;
+  background-color: var(--blue1-color); /* Color de la barra de carga */
+  position: absolute;
+  top: 0;
+  left: -35px; /* Comenzar fuera de la vista a la izquierda */
+  border-radius: 10px; /* Ajusta el radio de borde según sea necesario */
+  animation: moveLoading 1s linear infinite; /* Aplicar la animación */
+}
+
+/* Definir la animación para mover el elemento de izquierda a derecha */
+@keyframes moveLoading {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}

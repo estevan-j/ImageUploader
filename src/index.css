@@ -1,23 +1,26 @@
-:root{
-  --light-back: #F9FAFC;
+:root {
+  --light-back: #f9fafc;
   --dark-back: #121826;
-  --light-cont: #FFFFFF;
+  --light-cont: #ffffff;
   --dark-cont: #212936;
-  --blue1-color: #3662E3;
-  --sky-blue: #C2DAF9;
+  --blue1-color: #3662e3;
+  --sky-blue: #c2daf9;
   --black1-color: #121826;
   --dark-btn: #364153;
-  --letter-black: #ABAEB3;
+  --letter-black: #abaeb3;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 100%;
   min-height: 100vh;
   padding: 0;
+}
+a {
+  text-decoration: none;
 }

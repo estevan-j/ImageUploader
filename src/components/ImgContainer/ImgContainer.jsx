@@ -1,6 +1,5 @@
 const ImgContainer = ({ file }) => {
   const imageUrl = URL.createObjectURL(file);
-  const bodies   =   "gatos";
   return (
     <img
       src={imageUrl}
