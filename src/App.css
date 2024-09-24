@@ -1,0 +1,11 @@
+.App{
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--light-back);
+  color: var(--dark-back);
+}
+
+.darkMode {
+  background-color: var(--dark-back);
+  color: var(--light-back); 
+}

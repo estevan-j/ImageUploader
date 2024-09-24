@@ -1,0 +1,23 @@
+:root{
+  --light-back: #F9FAFC;
+  --dark-back: #121826;
+  --light-cont: #FFFFFF;
+  --dark-cont: #212936;
+  --blue1-color: #3662E3;
+  --sky-blue: #C2DAF9;
+  --black1-color: #121826;
+  --dark-btn: #364153;
+  --letter-black: #ABAEB3;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+}

@@ -1,0 +1,31 @@
+.box-upload{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px dashed var(--letter-black);
+    border-radius: 10px;
+}
+
+.box-upload img{
+    width: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.box-upload p{
+    font-size: 17px;
+}
+
+.box-upload p a {
+    cursor: pointer;
+    color: var(--blue1-color);
+}
+
+.box-upload span{
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--letter-black);
+}

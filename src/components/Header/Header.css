@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    padding: 15px 4rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.8px solid var(--letter-black);
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 200;
+    gap: 10px;
+}
+
+.btn-mode{
+    width: 32px;
+    padding: 3px 4px;
+    background-color: var(--light-cont);
+    border: 1.5px solid var(--letter-black);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-mode:hover{
+    opacity: 0.8;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dark{
+    background-color: var(--dark-btn);
+}
